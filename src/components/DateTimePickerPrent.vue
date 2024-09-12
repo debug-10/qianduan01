@@ -1,0 +1,24 @@
+<template>
+    <div>
+        <DateTimePicker v-model="date" v-model:timeValue="time"/>
+        <p>日期:{{ date }}</p>
+        <p>时间:{{ time }}</p>
+    </div>
+</template>
+
+<script setup lang="ts">
+import { ref } from 'vue'
+import DateTimePicker from './DateTimePicker.vue';
+
+const date = ref<string>('')
+const time = ref<string>('')
+
+defineProps({
+modelValue:String,
+timeValue:String
+})
+</script>
+
+<style scoped>
+
+</style>
