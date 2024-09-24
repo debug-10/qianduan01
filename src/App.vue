@@ -35,7 +35,7 @@
                                <!-- <Modify/> -->
                                 <!-- <CustomInputParent/> -->
                                 <!-- <CustomInput/> -->
-                                 <DOM/>
+                                 <!-- <DOM/> -->
                                   <!-- <DateTimePickerPrent/> -->
    <!-- <WuKong1/> -->
    <!-- <WuKong2/> -->
@@ -45,6 +45,15 @@
    <!-- <Equipment/> -->
     <!-- <ScrollDemo/> -->
 
+    <!-- <UserForm/> -->
+<!-- <UserProfileParent/> -->
+ <!-- <UserFormParent/> -->
+  <!-- <SendEmail/> -->
+   <!-- <DataFetcher/> -->
+    <!-- <CardParent/> -->
+ 
+<!-- <LoginForm/> -->
+ <ProductList/>
   </div>
 </template>
 
@@ -74,6 +83,14 @@ import CustomInputParent from './components/CustomInputParent.vue';
 import CustomInput from './components/CustomInput.vue';
 import DOM from './components/DOM.vue';
 import DateTimePickerPrent from './components/DateTimePickerPrent.vue';
+import UserForm from './components/UserForm.vue';
+import UserProfileParent from './components/UserProfileParent.vue';
+import UserFormParent from './components/UserFormParent.vue';
+import SendEmail from './components/SendEmail.vue';
+import DataFetcher from './components/DataFetcher.vue';
+import CardParent from './components/CardParent.vue';
+import LoginForm from './components/LoginForm.vue';
+import ProductList from './components/ProductList.vue';
 
 // import BasicCondition from './components/BasicCondition.vue';
 
