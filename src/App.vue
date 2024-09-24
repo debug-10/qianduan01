@@ -53,7 +53,9 @@
     <!-- <CardParent/> -->
  
 <!-- <LoginForm/> -->
- <ProductList/>
+ <!-- <ProductList/> -->
+ <!-- <Atest01/> -->
+  <Atest02/>
   </div>
 </template>
 
@@ -91,6 +93,8 @@ import DataFetcher from './components/DataFetcher.vue';
 import CardParent from './components/CardParent.vue';
 import LoginForm from './components/LoginForm.vue';
 import ProductList from './components/ProductList.vue';
+import Atest01 from './components/Atest01.vue';
+import Atest02 from './components/Atest02.vue';
 
 // import BasicCondition from './components/BasicCondition.vue';
 
